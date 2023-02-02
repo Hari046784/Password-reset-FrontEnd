@@ -1,0 +1,45 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 104, 104);
+}
+
+.register h1 {
+color: black;
+font-weight: bolder;
+font-size: 35px;
+text-align: center;
+font-style: italic;
+}
+
+.lottie {
+height: 500px;
+}
+
+.inputfield {
+border-radius: 5px;
+border: none;
+padding: 5px 10px;
+}
+
+.inputfield:focus {
+outline: none !important;
+box-shadow: none !important;
+}
+
+.error_msg, .success_msg {
+width: 615px;
+padding: 8px;
+margin: 5px 0;
+font-size: 15px;
+background-color: #d41919;
+color: white;
+border-radius: 5px;
+text-align: center;
+}
+
+.success_msg{
+background-color: #5cdd5c;
+}

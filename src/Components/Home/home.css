@@ -1,0 +1,41 @@
+.layout {
+margin: 10px 100px;
+}
+
+.header {
+padding: 20px;
+border-radius: 25px;
+background-color: rgb(140, 56, 23);
+border: 3px solid rgb(207, 181, 171);
+}
+
+.logo {
+font-size: 30px;
+font-weight:bold;
+color: white;
+margin: 0 !important;
+}
+
+.content {
+height: 80vh;
+box-shadow: 0 0 3px gray;
+margin-top: 20px;
+border-radius: 25px;
+padding: 15px;
+}
+
+.content h1 {
+color: green;
+font-weight: bold;
+}
+
+.arrange{
+    margin-right: 5px;
+}
+
+.signout {
+padding: 5px 10px;
+border-radius: 10px;
+font-weight: bold;
+color: red;
+}
